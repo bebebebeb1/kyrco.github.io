@@ -1,0 +1,28 @@
+/* Normalize and base styles */
+@import 'modern-normalize';
+@import url('./base.css');
+@import url('./container.css');
+
+/* SCSS modules */
+@import url('./variables.scss');
+@import url('./fonts.scss');
+@import url('./header.scss');
+@import url('./home.scss');
+@import url('./exercises.scss');
+@import url('./footer.scss');
+
+/* CSS components */
+@import url('./hero.css');
+@import url('./quote-card.css');
+@import url('./daily-norm.css');
+@import url('./workout-card.css');
+@import url('./favorites.css');
+@import url('./pagination.css');
+@import url('./mobile-menu.css');
+@import url('./modal.css');
+@import url('./search.css');
+
+/* Modals */
+@import url('./rating-modal.scss');
+@import url('./exercise-modal.scss');
+@import url('./global-notification.scss');

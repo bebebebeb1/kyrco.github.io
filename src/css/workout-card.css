@@ -1,0 +1,74 @@
+/* Workout card styles */
+.workout-card {
+  padding: 16px;
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 28, 28, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.workout-card:hover {
+  box-shadow: 0 4px 16px rgba(28, 28, 28, 0.1);
+}
+
+.workout-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.workout-card-badge {
+  padding: 6px 12px;
+  background: rgba(246, 246, 246, 0.8);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.workout-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.workout-card-description {
+  font-size: 14px;
+  line-height: 1.43;
+  color: rgba(28, 28, 28, 0.6);
+  margin-bottom: 16px;
+}
+
+.workout-card-stats {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+}
+
+.workout-card-stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.workout-card-stat-label {
+  color: rgba(28, 28, 28, 0.4);
+}
+
+.workout-card-stat-value {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .workout-card {
+    padding: 20px;
+  }
+  
+  .workout-card-title {
+    font-size: 20px;
+  }
+  
+  .workout-card-description {
+    font-size: 16px;
+  }
+}
